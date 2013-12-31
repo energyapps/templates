@@ -1,0 +1,134 @@
+
+/*Make title in the bottom left*/
+.field-type-energy-map .wax-title { bottom: 10px !important;}
+
+body { margin:0; padding:0; }
+#map { height: 600px; width:100%; }
+
+	/*Legend*/
+	div.map-tooltip {
+		border: none !important;
+		border-radius: none !important;
+		-webkit-border-radius: none !important;
+		color: #333;
+		font-weight: 300 !important;
+	}
+
+	.chart img {
+		display: none;
+	}
+
+	div.map-legend { 
+		border: none !important;
+		border-radius: none !important;
+		-webkit-border-radius: none !important;
+	}
+
+/*Content in tooltips*/
+div.map-tooltip-content {
+	
+
+}
+
+	/*Legend*/
+	div.map-legend {
+		
+	}
+
+	/*tooltip frame*/
+	div.map-tooltip {
+		
+
+	}
+
+@media (max-width: 960px) {
+
+}
+
+@media (max-width: 670px) {
+
+}
+
+/*************************
+Iphone 5
+*************************/
+
+@media (max-width: 570px) {
+
+	#map {
+		height: 320px !important;
+	}
+
+/*Right side part that allows you to scroll*/
+	#scroll-area {
+	  width: 40px;
+	  height: 100%;
+	  position: absolute;
+	  z-index: 200;
+	  right: 0px;
+	}
+
+/*zoom*/
+	div.leaflet-control-zoom.leaflet-bar.leaflet-control {
+		margin-top: 0px;
+		margin-left: 0px;
+		border: none !important;
+
+	}
+
+/*legend*/
+	div.map-legends.map-legends.leaflet-control {
+		margin-right: 0px;
+		margin-bottom: 0px;
+		max-width: 320px;
+		border: none !important;
+	}
+
+	div.map-legend.map-legend {
+		width: 100% !important;
+	}
+
+	div.leaflet-bottom.leaflet-right {
+		right: inherit !important;
+		left: 0 !important;
+
+	}
+	   div.leaflet-bottom.leaflet-right {
+    z-index: -1000;
+    display: none;
+}
+
+/*tooltip*/
+	div.leaflet-control-grid.map-tooltip.leaflet-control {
+		margin-top: 0px;
+		margin-right: 0px;
+		max-width: 320px;
+	}
+
+	/*wax title*/
+
+	.wax-title {
+		display: none;
+	}
+
+}
+
+/********************
+Iphone 4 landscape
+*********************/
+@media (max-width: 480px) {
+	#map {
+			height: 255px !important;
+		}
+
+}
+
+/********************
+Iphone portrait
+*********************/
+@media (max-width: 320px) {
+	#map {
+		height: 320px !important;
+	}
+	
+}
