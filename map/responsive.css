@@ -1,11 +1,32 @@
-
-/*Make title in the bottom left*/
-.field-type-energy-map .wax-title { bottom: 10px !important;}
-
 body { margin:0; padding:0; }
 #map { height: 600px; width:100%; }
 
-	/*Legend*/
+/*Legend*/
+div.map-legends { z-index:99 !important; }
+div.map-legends div.map-legend,
+div.map-legend {
+-webkit-border-radius:5px !important;
+-moz-border-radius:5px !important;
+border-radius:5px !important;
+background:#fff !important;
+width:150px !important;
+min-width:100px;
+font-size:10px;
+color:#333;
+}
+.map-legend .legend-color { float:left; }
+.map-legend .legend-label { display:block; margin-left:18px; }
+	
+
+
+
+
+/*Content in tooltips*/
+	div.map-tooltip-content {
+		
+	}
+
+/*Frame of Tooltip*/
 	div.map-tooltip {
 		border: none !important;
 		border-radius: none !important;
@@ -14,32 +35,6 @@ body { margin:0; padding:0; }
 		font-weight: 300 !important;
 	}
 
-	.chart img {
-		display: none;
-	}
-
-	div.map-legend { 
-		border: none !important;
-		border-radius: none !important;
-		-webkit-border-radius: none !important;
-	}
-
-/*Content in tooltips*/
-div.map-tooltip-content {
-	
-
-}
-
-	/*Legend*/
-	div.map-legend {
-		
-	}
-
-	/*tooltip frame*/
-	div.map-tooltip {
-		
-
-	}
 
 @media (max-width: 960px) {
 
