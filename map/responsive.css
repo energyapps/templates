@@ -5,31 +5,31 @@ body { margin:0; padding:0; }
 div.map-legends { z-index:99 !important; }
 div.map-legends div.map-legend,
 div.map-legend {
--webkit-border-radius:5px !important;
--moz-border-radius:5px !important;
-border-radius:5px !important;
-background:#fff !important;
-width:150px !important;
-min-width:100px;
-font-size:10px;
-color:#333;
+	-webkit-border-radius:5px !important;
+	-moz-border-radius:5px !important;
+	border-radius:5px !important;
+	background:#fff !important;
+	width:150px !important;
+	min-width:100px;
+	font-size:10px;
+	color:#333;
 }
 .map-legend .legend-color { float:left; }
 .map-legend .legend-label { display:block; margin-left:18px; }
 	
 /*Content in tooltips*/
-	div.map-tooltip-content {
+div.map-tooltip-content {
 		
 	}
 
 /*Frame of Tooltip*/
-	div.map-tooltip {
-		border: none !important;
-		border-radius: none !important;
-		-webkit-border-radius: none !important;
-		color: #333;
-		font-weight: 300 !important;
-	}
+div.map-tooltip {
+	border: none !important;
+	border-radius: none !important;
+	-webkit-border-radius: none !important;
+	color: #333;
+	font-weight: 300 !important;
+}
 
 
 @media (max-width: 960px) {
@@ -84,10 +84,10 @@ Iphone 5
 		left: 0 !important;
 
 	}
-	   div.leaflet-bottom.leaflet-right {
-    z-index: -1000;
-    display: none;
-}
+   div.leaflet-bottom.leaflet-right {
+	    z-index: -1000;
+	    display: none;
+	}
 
 /*tooltip*/
 	div.leaflet-control-grid.map-tooltip.leaflet-control {
@@ -95,13 +95,6 @@ Iphone 5
 		margin-right: 0px;
 		max-width: 320px;
 	}
-
-	/*wax title*/
-
-	.wax-title {
-		display: none;
-	}
-
 }
 
 /********************
@@ -109,9 +102,8 @@ Iphone 4 landscape
 *********************/
 @media (max-width: 480px) {
 	#map {
-			height: 255px !important;
-		}
-
+		height: 255px !important;
+	}
 }
 
 /********************
@@ -121,5 +113,4 @@ Iphone portrait
 	#map {
 		height: 320px !important;
 	}
-	
 }
