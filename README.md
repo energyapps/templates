@@ -1,5 +1,5 @@
-Energy Maps and Charts info and Best Practices
-==============================================
+Energy Maps and Charts Templates
+================================
 
 * [About this page](#about-this-page)
 * [Assumptions](#assumptions)
