@@ -37,7 +37,7 @@ Libraries
  * [Underscore JS ](http://documentcloud.github.io/underscore/) for functional programming (where Underscore and jQuery overlap, i.e. each(), prefer Underscore).
  * [Enquire JS ](http://wicky.nillia.ms/enquire.js/) for responsive javascript.
 
-DOE note: all libraries must be approved priort use on energy.gov
+DOE note: all libraries must be approved prior to use on energy.gov
 
 Best Practices
 --------------
