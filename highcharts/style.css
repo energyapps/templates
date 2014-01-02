@@ -1,0 +1,33 @@
+    #container {
+        height: 590px; 
+        margin: 0 auto;
+    }
+
+
+@media (max-width: 570px) {
+    #container {
+        height: 450px !important;
+    }
+    #scroll-area {
+        width: 40px;
+        height: 100%;
+        position: absolute;
+        z-index: 200;
+        right: 0px;
+    } 
+
+}
+@media (max-width: 480px) {
+    #container {
+        height: 450px !important;
+    }
+
+}
+@media (max-width: 320px) {
+    #container {
+        height: 500px !important;
+    }
+   
+}
+
+
