@@ -2,6 +2,8 @@
     Markup, CSS, and Javascript.
 
     See detailed map documentation for more help.
+
+    This is a basic map to use, especially if you use Tilemill's built in tooltips and/or legend.
  -->
 
 <!DOCTYPE html>
@@ -20,16 +22,13 @@
   
 </head>
 <body>
-  <!-- This invisible div sits along the right side, on top of the map, at small screen sizes 
-
-MAKE SURE ITS ONLY WHEN RESPONSIVE!!!!
--->
+  <!-- This invisible div sits along the right side, on top of the map, at small screen sizes-->
 <div id='scroll-area'></div>
 
 <div id='map'></div>
 <script type='text/javascript'>
 
-//Input your mapbox tiles if you are using mapbox tiles. SHOULD I DO IT map.addTiles(etc)
+//Input your mapbox tiles if you are using mapbox tiles. 
 
 var map = L.mapbox.map('map', 'energy.map_1312357395587')
 

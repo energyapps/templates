@@ -22,7 +22,7 @@ Take a look at [the CSS]() code in order to familarize yourself with what I'm do
 * Optional: Move the zoom buttons to the edge of the map (remove padding), remove legend and/or tooltips at hand held sizes. This is not a great solution, but occassionally necessary (particularly for legends that take up a lot of space).
 
 
-### Retina Detect
+### Retina Detection
 show this code
 
 
