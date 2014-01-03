@@ -28,6 +28,8 @@ Couple things to note:
 *	Don't forget to wrap your jquery elements in the following:
 ```(function ($) {
     $(document).ready(function() {
+		$('#container').highcharts({
+		});	
     });
 }(jQuery));
 ```
