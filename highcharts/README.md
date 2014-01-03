@@ -27,7 +27,7 @@ Couple things to note:
 *	If you do not specify a width, it will default to 100% and therefore be responsive.
 *	Don't forget to wrap your jquery elements in the following:
 ```(function ($) {
-	$(document).ready(function() {
+    $(document).ready(function() {
     });
 }(jQuery));
 ```
