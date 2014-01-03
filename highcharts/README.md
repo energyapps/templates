@@ -26,9 +26,12 @@ Couple things to note:
 *	Highcharts is default responsive.
 *	If you do not specify a width, it will default to 100% and therefore be responsive.
 *	Don't forget to wrap your jquery elements in the following:
+
 ```
 (function ($) {
 	$(document).ready(function() {
+		$('#container').highcharts({
+		});
 	});
 }(jQuery));
 ```
