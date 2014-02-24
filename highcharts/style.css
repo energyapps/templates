@@ -1,13 +1,21 @@
+/*Make the container any height you want but leave the width blank. 
+It will automatically be set to 100%, which is important for responsive */
+
     #container {
         height: 590px; 
         margin: 0 auto;
     }
 
+/*Media queries, primarily for making the chart height change based on the size of the screen*/
 
 @media (max-width: 570px) {
     #container {
         height: 450px !important;
     }
+    
+    /*This is so that on the right side of the screen, there is an invisible div that for the user's 
+    thumb to be able to scroll past the graphic. Useful with any frame that has a 
+    touch zoom component (maps, highcharts) */
     #scroll-area {
         width: 40px;
         height: 100%;
