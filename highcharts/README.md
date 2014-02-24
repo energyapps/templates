@@ -22,7 +22,7 @@ That's it. Simple right?
 
 Couple things to note:
 * 	Like the maps, the charts can optionally contain a responsive-activated invisible div that allows for greater easy of scolling through the page. This is a id called "scroll-area".
-*	jQuery is automatically attached to every map page.
+*	jQuery is automatically attached to every page.
 *	Highcharts is default responsive.
 *	If you do not specify a width, it will default to 100% and therefore be responsive.
 *	Don't forget to wrap your jquery elements in the following:
