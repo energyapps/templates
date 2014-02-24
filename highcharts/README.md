@@ -15,7 +15,7 @@ Setting up a highcharts visualization is very easy in our setup. Follow these st
 1.	Create a `map` content type in energy.gov's CMS
 2.	Copy and paste your 
 	* HTML in the "markup" section 
-	* JS in the Js section and CSS in the CSS section (duh, why did I write that?)
+	* JS in the JS section and CSS in the CSS section
 3. Hit save.
 
 That's it. Simple right? 
