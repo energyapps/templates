@@ -1,6 +1,8 @@
 Energy Maps and Charts Templates
 ================================
 
+**NOTE** this is an old and unused repo
+
 * [About this page](#about-this-page)
 * [Assumptions](#assumptions)
 * [Libraries](#libraries)
